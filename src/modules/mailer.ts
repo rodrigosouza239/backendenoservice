@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
 
+//multer api
 const transport = nodemailer.createTransport({
   host: "smtp.mailtrap.io",
   port: 2525,
