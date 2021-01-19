@@ -1,6 +1,6 @@
-import express from "express";
 import cors from "cors";
 import { resolve } from "path";
+var express = require('express');
 
 //importação da  conexão do banco de dados
 import "./database/connections";
