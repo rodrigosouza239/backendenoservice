@@ -3,10 +3,10 @@ var resolve = require('path');
 var express = require('express');
 
 //importação da  conexão do banco de dados
-import "./database/connections";
+var databaseConnections = require("./database/connections");
 
 //importação das routas
-import routes from "./routes";
+var routes = require('./routes');
 
 const app = express();
 
