@@ -175,7 +175,7 @@ export default class checkE {
 
   @Column()
   aal: boolean;
-
+  
   @Column()
   aam: boolean;
 
