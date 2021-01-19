@@ -1,5 +1,5 @@
-import cors from "cors";
-import { resolve } from "path";
+var cors = require('cors');
+var resolve = require('path');
 var express = require('express');
 
 //importação da  conexão do banco de dados
