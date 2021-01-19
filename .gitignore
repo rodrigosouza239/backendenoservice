@@ -1,5 +1,2 @@
-/node_modules
 
-
-temp/*
-!temp/.gitkeep
+node_modules
