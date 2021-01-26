@@ -1,12 +1,12 @@
-var cors = require('cors');
-var resolve = require('path');
-var express = require('express');
+import express from "express";
+import cors from "cors";
+import { resolve } from "path";
 
 //importação da  conexão do banco de dados
-var databaseConnections = require("./database/connections");
+import "./database/connections";
 
 //importação das routas
-var routes = require('./routes');
+import routes from "./routes";
 
 const app = express();
 
@@ -15,4 +15,4 @@ app.use(express.json());
 app.use("/files", express.static(resolve(__dirname, "..", "temp", "uploads")));
 app.use(routes);
 
-app.listen(3000);
+app.listen(3333);
